@@ -17,7 +17,7 @@ console.log(`\n> Running: ${commands[index]}`);
  console.error(`❌ Error executing ${commands[index]}:\n`, error.message);
 return;
     }
-if (stderr) console.error(`⚠️ ${stderr}`);
+if (stderr) console.error(`errrrr = ${stderr}`);
  if (stdout) console.log(stdout);
 
     runCommand(index + 1);});
